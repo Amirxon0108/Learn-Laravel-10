@@ -14,5 +14,14 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('index');
+});
+Route::get('/sql', function(){
+    return view('sql.sql-course');
+});
+Route::get('/laravel', function(){
+return view('laravel.model');
+});
+Route::get('/php', function(){
+return view('php.php-course');
 });
