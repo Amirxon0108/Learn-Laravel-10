@@ -17,11 +17,11 @@ Route::get('/', function () {
     return view('index');
 });
 Route::get('/sql', function(){
-    return view('sql.sql-course');
+    return view('sql.sql-cource');
 });
 Route::get('/laravel', function(){
 return view('laravel.model');
 });
-Route::get('/php', function(){
-return view('php.php-course');
-});
+// Route::get('/php', function(){
+// return view('php.php-course');
+// });

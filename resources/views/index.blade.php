@@ -6,7 +6,7 @@
     <title>Document</title>
 </head>
 <body>
-    <a href="{{ route('sql') }}">SQL</a>
-    <a href="{{ route('laravel') }}">Laravel 10</a>
+    <a href="{{ url('sql') }}">SQL</a>
+    <a href="{{ url('laravel') }}">Laravel 10</a>
 </body>
 </html>
